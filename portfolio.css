@@ -95,6 +95,8 @@ h1 {
 
 .workGrid {
     width: 510px;
+    margin-bottom: 30px;
+    margin-left: 30px;
 }
 .rabbit {
     grid-area: rabbit;
@@ -163,7 +165,6 @@ h2 {
 
 .projectInfo {
     background-color: #C6C3CC;
-    margin-bottom: 10px;
     border-bottom-left-radius: 20px;
     border-bottom-right-radius: 20px;
 }
@@ -251,6 +252,10 @@ hr {
     text-align: center;
 }
 
+.rightNavAlt {
+    visibility: hidden;
+}
+
 @media only screen and (max-width: 700px) {
     .projectGrid {
         display: grid;
@@ -270,6 +275,9 @@ hr {
         visibility: hidden;
     }
 
-
+    .rightNavAlt {
+        visibility: visible;
+        text-align: right;
+    }
 
   }
